@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
+import { VideoBgComponent } from './video-bg/video-bg.component';
 
 
 @NgModule({
   declarations: [
-    HomeComponent
+    HomeComponent,
+    VideoBgComponent
   ],
   imports: [
     CommonModule,
